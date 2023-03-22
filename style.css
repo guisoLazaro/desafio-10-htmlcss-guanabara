@@ -1,0 +1,142 @@
+@font-face{
+    font-family: 'Idroid';
+    src: url(fontes/idroid.otf);
+
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    background-color: #BEE6C7;
+}
+header{
+    padding: 20px;
+    background-image: linear-gradient(to top, #1A662B , #4a7c5598);
+    width: 100%;
+}
+header > p {
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+header > nav {
+    margin-top: 10px;
+    padding: 5px;
+}
+header > h1 {
+    font-family: 'Hind Siliguri', sans-serif;;
+}
+nav > a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav > a:hover{
+    color: #1A662B;
+    text-decoration: underline;
+    background-color: #BEE6C7;
+    border-radius: 5px;
+}
+h1{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+.title-article{
+    font-family: 'Idroid';
+}
+section{
+    background-color: white;
+    max-width: 850px;
+    text-align: center;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+article{
+    padding-top: 5px;
+}
+article > h1 {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #1A662B;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+article > h2 {
+    text-align: left;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right,#d6fade, #ffffff);
+    color: #1A662B;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+article > p {
+    text-align: justify;
+    text-indent: 30px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.video {
+    background-color: #1A662B;
+    padding: 20px;
+}
+.dicas {
+    display: inline-block;
+    text-align: left;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #BEE6C7;
+}
+.title-extra{
+    background-color: #2d8d41;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.cont-dicas {
+    text-align: justify;
+    text-indent: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+.dicas > div {
+    display: inline-block;
+    width: 300px;
+    margin: auto;
+}
+ul {
+    font-weight: bold;
+}
+
+li > a {
+    text-decoration: underline;
+    color: black;
+}
+span{
+    color: #2d8d41;
+    font-weight: bolder;
+}
+footer {
+    background-color: #1A662B;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    color: white;
+    margin-top: 20px;
+    padding: 5px;
+}
