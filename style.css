@@ -17,8 +17,11 @@ body{
 }
 header{
     padding: 20px;
+    padding-bottom: 5px;
+    padding-left: 5px;
     background-image: linear-gradient(to top, #1A662B , #4a7c5598);
     width: 100%;
+    min-height: 150px;
 }
 header > p {
     color: white;
@@ -55,9 +58,13 @@ h1{
 .title-article{
     font-family: 'Idroid';
 }
+main {
+    max-width: 850px;
+    min-width: 320px;
+    margin: auto;
+}
 section{
     background-color: white;
-    max-width: 850px;
     text-align: center;
     margin: auto;
     border-bottom-left-radius: 10px;
@@ -87,8 +94,9 @@ article > p {
     text-align: justify;
     text-indent: 30px;
     padding: 10px;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: bold;
+    line-height: 2em;
 }
 .video {
     background-color: #1A662B;
@@ -121,13 +129,21 @@ article > p {
     width: 300px;
     margin: auto;
 }
+.externo::after{
+    content: '\00A0\1F517';
+}
 ul {
+    list-style-type: '\2714\00A0\00A0';
     font-weight: bold;
 }
 
 span{
     color: #2d8d41;
     font-weight: bolder;
+}
+span > a{
+    text-decoration: none;
+    color: #2d8d41;
 }
 footer {
     background-color: #1A662B;
